@@ -1,1 +1,5 @@
-export const App = () => <h1>Hello World</h1>;
+import { Header } from './components/Header';
+
+export const App = () => {
+  return <Header />;
+};
