@@ -1,6 +1,6 @@
-import styles from "./button.module.css";
-import { ButtonContainer } from "./styles";
-import { ButtonProps } from "./types";
+import styles from './button.module.css'
+import { ButtonContainer } from './styles'
+import { ButtonProps } from './types'
 
 // export function Button({ color = "primary" }: ButtonProps) {
 //   return (
@@ -8,6 +8,6 @@ import { ButtonProps } from "./types";
 //   );
 // }
 
-export function Button({ variant = "primary" }: ButtonProps) {
-  return <ButtonContainer variant={variant}>Enviar</ButtonContainer>;
+export function Button({ variant = 'primary' }: ButtonProps) {
+  return <ButtonContainer variant={variant}>Enviar</ButtonContainer>
 }

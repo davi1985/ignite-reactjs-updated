@@ -1,9 +1,9 @@
-type ButtonVariant = "primary" | "secondary" | "danger" | "success";
+type ButtonVariant = 'primary' | 'secondary' | 'danger' | 'success'
 
 export interface ButtonContainerProps {
-  variant: ButtonVariant;
+  variant: ButtonVariant
 }
 
 export interface ButtonProps {
-  variant?: ButtonVariant;
+  variant?: ButtonVariant
 }
