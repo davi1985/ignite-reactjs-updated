@@ -33,9 +33,9 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     font-size: 2rem;
   }
 
-  ${(props) =>
-    props.variant === 'green' &&
+  ${({ theme, variant }) =>
+    variant === 'green' &&
     css`
-      background: ${props.theme['green-500']};
+      background: ${theme['green-500']};
     `}
 `
