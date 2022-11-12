@@ -15,6 +15,38 @@
       "price": 80,
       "category": "Alimentação",
       "createdAt": "2022-11-11T20:45:21.687Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite Rocketseat",
+      "type": "outcome",
+      "price": 1980,
+      "category": "Educação",
+      "createdAt": "2022-11-11T20:45:21.687Z"
+    },
+    {
+      "id": 4,
+      "description": "Feira do Mês",
+      "type": "outcome",
+      "price": 880,
+      "category": "Alimentação",
+      "createdAt": "2022-11-11T20:45:21.687Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2022-11-12T17:53:19.878Z",
+      "id": 5
+    },
+    {
+      "description": "Impostos do Carro",
+      "price": 2000,
+      "category": "Transporte",
+      "type": "outcome",
+      "createdAt": "2022-11-12T18:09:35.466Z",
+      "id": 6
     }
   ]
 }
